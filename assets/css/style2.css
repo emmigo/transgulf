@@ -9,7 +9,7 @@ body {
 }
 
 a {
-  color: #fff;
+  color: #106eea;
 }
 
 a:hover {
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #fff;
+  border: 6px solid #106eea;
   border-top-color: #e2eefd;
   border-radius: 50%;
   width: 60px;
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #fff;
+  background: #106eea;
   color: #fff;
   transition: all 0.4s;
 }
@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #fff;
+  background: #106eea;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #3284f1;
+  background: #fff;
   transition: all 0.5s;
   z-index: 997;
   padding: 25px 0;
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a span {
-  color: #fff;
+  color: #106eea;
 }
 
 #header .logo img {
@@ -237,7 +237,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #fff;
+  background-color: #106eea;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -249,7 +249,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #fff;
+  color: #106eea;
 }
 
 .nav-menu .drop-down ul {
@@ -286,7 +286,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #fff;
+  color: #106eea;
 }
 
 .nav-menu .drop-down > a:after {
@@ -381,7 +381,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #fff;
+  color: #106eea;
   text-decoration: none;
 }
 
@@ -435,8 +435,6 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
 }
-
-
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -615,13 +613,6 @@ section {
   .section-title p {
     width: 50%;
   }
-}
-
-
-.card:hover {
-    -webkit-box-shadow: 4px 3px 16px 0px rgba(50, 50, 50, 0.22);
-    -moz-box-shadow:    4px 3px 16px 0px rgba(50, 50, 50, 0.22);
-    box-shadow:         4px 3px 16px 0px rgba(50, 50, 50, 0.22);
 }
 
 /*--------------------------------------------------------------
@@ -1815,4 +1806,18 @@ section {
     text-align: center;
     padding: 2px 0;
   }
+}
+
+.card:{
+   transition: 0.3s;
+   border-top-right-radius: 12px !important;
+   border-top-left-radius: 12px !important;
+   border-bottom-right-radius: 12px !important;
+   border-bottom-left-radius: 12px !important;
+}
+.card:hover {
+  transition: 0.3s;
+    -webkit-box-shadow: 4px 3px 16px 0px rgba(50, 50, 50, 0.22);
+    -moz-box-shadow:    4px 3px 16px 0px rgba(50, 50, 50, 0.22);
+    box-shadow:         4px 3px 16px 0px rgba(50, 50, 50, 0.22);
 }
