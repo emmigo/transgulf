@@ -1821,3 +1821,16 @@ section {
     -moz-box-shadow:    4px 3px 16px 0px rgba(50, 50, 50, 0.22);
     box-shadow:         4px 3px 16px 0px rgba(50, 50, 50, 0.22);
 }
+
+@media (max-width: 576px) { 
+  .media-tagged{
+    display: flex !important;
+    flex-direction: column-reverse;
+
+  }
+  #media-tagged{
+    display: flex !important;
+    flex-direction: column-reverse;
+
+  }
+ }
